@@ -4,7 +4,7 @@ import json
 import os
 from keep_alive import keep_alive
 
-TOKEN = "COLOQUE_SEU_TOKEN_AQUI"
+TOKEN = os.environ['DISCORD_TOKEN']
 
 PENALIDADES = {
     "leve": 2,
